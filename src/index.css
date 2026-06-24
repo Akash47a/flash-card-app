@@ -1,15 +1,12 @@
 :root {
   /* Colors */
-  --primary-color: #303841;
-  --secondary-color: #FF5722;
-  --background-color: #F5F5F5;
+  --background-color: #F5EFE6;
   --card-color: #76ABAE;
 
   /* Typography */
   --font-family: "Poppins", sans-serif;
-  --heading-size: 2rem;
   --question-size: 1.5rem;
-  --body-size: 1rem;
+  --body-size: 1.3rem;
 
   /* Shadows */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
@@ -18,4 +15,125 @@
   /* Transition */
   --transition: all 0.3s ease;
 }
+*{
+  font-family: var(--font-family);
+}
+body{
+  height: 95vh;
+  width: 95vw;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  height: 60vh;
+  width: 50vw;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  
+}
+.question{
+  height: 100%;
+  width: 100%;
+  background-color: var(--card-color);
+  border-radius: 10px;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--question-size);
+  padding-left: 1%;
+  text-align: center;
+}
+.control{
+  height: 15%;
+  width: 100%;
+  background-color: var(--card-color);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 0.5%;
+  font-size: var(--body-size);
+}
+.nextbtn{
+  height: 70%;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  padding-top:2%;
+}
+.previousbtn{
+  height: 70%;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  padding-top:2%;
+}
+.answerbtn{
+  height: 70%;
+  width: 30%;
+  padding-top:2%;
+  text-align: center;
+  cursor: pointer;
+}
+.bar{
+  height: 10vh;
+  width: 50vw;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding:0 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1%;
+}
+.divPro{
+  width: 80%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid black;
+  border-radius: 10px;
+}
+.progress{
+  height: 100%;
+  background-color: var(--card-color);
+  border-radius: 10px;
+  transition: 300ms linear;
+}
 
+@media screen and (max-width:950px) {
+  .box,.bar{
+    width: 70vh;
+  }
+  .control{
+    font-size: 1rem;
+    padding-top: 3%;
+  }
+  .question{
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width:500px) {
+  .box{
+    width: 70vh;
+    height: 80vh;
+  }
+  .bar{
+    height: 10vh;
+  }
+  .control{
+    height: 10%;
+    font-size: 1rem;
+    padding-top: 3%;
+  }
+  .question{
+    font-size: 1.3rem;
+  }
+}
