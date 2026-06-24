@@ -1,0 +1,54 @@
+{
+    "data":[
+  {
+    "id": 1,
+    "question": "What is the difference between var, let, and const in JavaScript?",
+    "answer": "var is function-scoped and can be re-declared. let and const are block-scoped. let allows reassignment, while const does not."
+  },
+  {
+    "id": 2,
+    "question": "What is JSX in React?",
+    "answer": "JSX is a syntax extension that allows you to write HTML-like code inside JavaScript. React converts JSX into JavaScript."
+  },
+  {
+    "id": 3,
+    "question": "What is a React component?",
+    "answer": "A React component is a reusable piece of UI that returns React elements to be rendered on the screen."
+  },
+  {
+    "id": 4,
+    "question": "What are props in React?",
+    "answer": "Props are read-only data passed from a parent component to a child component."
+  },
+  {
+    "id": 5,
+    "question": "What is state in React?",
+    "answer": "State is data managed inside a component that can change over time and trigger re-renders."
+  },
+  {
+    "id": 6,
+    "question": "What is the purpose of useState?",
+    "answer": "useState is a React Hook that allows functional components to store and update state."
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of useEffect?",
+    "answer": "useEffect is used for side effects such as fetching data, updating the DOM, or subscribing to events."
+  },
+  {
+    "id": 8,
+    "question": "What is the Virtual DOM?",
+    "answer": "The Virtual DOM is a lightweight copy of the real DOM that React uses to efficiently update the UI."
+  },
+  {
+    "id": 9,
+    "question": "Why are keys important in React lists?",
+    "answer": "Keys help React identify which items have changed, been added, or removed, improving rendering performance."
+  },
+  {
+    "id": 10,
+    "question": "What is React Router?",
+    "answer": "React Router is a library that enables navigation between different pages in a React application without reloading the page."
+  }
+]
+}

@@ -1,0 +1,21 @@
+:root {
+  /* Colors */
+  --primary-color: #303841;
+  --secondary-color: #FF5722;
+  --background-color: #F5F5F5;
+  --card-color: #76ABAE;
+
+  /* Typography */
+  --font-family: "Poppins", sans-serif;
+  --heading-size: 2rem;
+  --question-size: 1.5rem;
+  --body-size: 1rem;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 15px rgba(0, 0, 0, 0.12);
+
+  /* Transition */
+  --transition: all 0.3s ease;
+}
+
